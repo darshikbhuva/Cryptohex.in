@@ -9,7 +9,7 @@ import { CiMail } from "react-icons/ci";
 
 const Support = () => {
   return (
-    <DashboardLayout>
+    <DashboardLayout title="Support">
       <Stack spacing="5rem">
         <SupportCard
           icon={CiMail}
