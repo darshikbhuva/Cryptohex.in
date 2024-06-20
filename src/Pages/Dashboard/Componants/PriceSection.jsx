@@ -72,7 +72,7 @@ const PriceSection = () => {
 
         <TabPanels>
           <TabPanel>
-            <Image src="./Public/graph.svg" width="100%" mt="3rem" />
+            <Image src="./Public/graph.svg" width="100%" mt="3rem"  alt="Graph Chart" />
             <HStack justifyContent="space-between">
               {timestamps.map((time) => (
                 <Text color="black.80" key={time} fontSize="sm">
@@ -82,7 +82,7 @@ const PriceSection = () => {
             </HStack>
           </TabPanel>
           <TabPanel>
-            <Image src="./Public/graph.svg" width="100%" mt="3rem" />
+            <Image src="./Public/graph.svg" width="100%" mt="3rem" alt="Graph Chart" />
             <HStack justifyContent="space-between">
               {timestamps.map((time) => (
                 <Text color="black.80" key={time} fontSize="sm">
@@ -92,7 +92,7 @@ const PriceSection = () => {
             </HStack>
           </TabPanel>
           <TabPanel>
-            <Image src="./Public/graph.svg" width="100%" mt="3rem" />
+            <Image src="./Public/graph.svg" width="100%" mt="3rem" alt="Graph Chart"/>
             <HStack justifyContent="space-between">
               {timestamps.map((time) => (
                 <Text color="black.80" key={time} fontSize="sm">
@@ -102,7 +102,7 @@ const PriceSection = () => {
             </HStack>
           </TabPanel>
           <TabPanel>
-            <Image src="./Public/graph.svg" width="100%" mt="3rem" />
+            <Image src="./Public/graph.svg" width="100%" mt="3rem" alt="Graph Chart" />
             <HStack justifyContent="space-between">
               {timestamps.map((time) => (
                 <Text color="black.80" key={time} fontSize="sm">
